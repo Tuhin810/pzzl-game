@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+
+
+
+html{
+    background-color: #21D4FD;
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+body {
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    
+    
+
+
+}
+
+#title {
+    height: 150px;
+    width: 400px;
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: lightblue;
+    border: 10px solid #0c67ae;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #0c67ae;
+}
+
+.btn{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+}
+button{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    height: 48px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(55, 0, 255);
+    background-color: white;
+    transition: 0.6s;
+}
+button img{
+    height: 40px;
+    width: 40px;
+}
+button:hover{
+    box-shadow: 1px 0px 11px rgb(249, 249, 249);
+}
+
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 19%;
+    left: 96%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
